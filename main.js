@@ -19,7 +19,7 @@
               appName: "DwAR",
               customerId: "4",
               campaignName: "SBI",
-              serverUrl: "https://3.110.158.27/event"
+              serverUrl: "https://staging.lttl.in/event"
           }
        );
 
@@ -152,77 +152,89 @@
 
   
     
-      const image_58e00498_60386e28_iconGeometry = new THREE.PlaneGeometry(1, 0.32);
-   const image_58e00498_60386e28_texture = await loadTexture("assets/sbi-applynow.png");
-  const image_58e00498_60386e28_image = new THREE.MeshBasicMaterial({
-      map: image_58e00498_60386e28_texture,
+      const image_58e00498_6031322a_iconGeometry = new THREE.PlaneGeometry(1, 0.32);
+   const image_58e00498_6031322a_texture = await loadTexture("assets/sbi-applynow.png");
+  const image_58e00498_6031322a_image = new THREE.MeshBasicMaterial({
+      map: image_58e00498_6031322a_texture,
     });
-    const image_58e00498_60386e28 = new THREE.Mesh(image_58e00498_60386e28_iconGeometry, image_58e00498_60386e28_image);
-    image_58e00498_60386e28.scale.set(0.42, 0.42, 1);
-    image_58e00498_60386e28.position.set(0.3, -0.6, 0);
-    image_58e00498_60386e28.rotation.set(-0.001, 0, 0);
-    image_58e00498_60386e28.userData.clickable = true
+    const image_58e00498_6031322a = new THREE.Mesh(image_58e00498_6031322a_iconGeometry, image_58e00498_6031322a_image);
+    image_58e00498_6031322a.scale.set(0.3, 0.3, 0.3);
+    image_58e00498_6031322a.position.set(0.36, -0.55, 0);
+    image_58e00498_6031322a.rotation.set(-0.001, 0, 0);
+    image_58e00498_6031322a.userData.clickable = true
     
-    image_58e00498_60386e28.userData.eventName ="unknown"
-const image_2c85cb77_80397634_iconGeometry = new THREE.PlaneGeometry(1, 0.36);
-   const image_2c85cb77_80397634_texture = await loadTexture("assets/sbicard-logo.png");
-  const image_2c85cb77_80397634_image = new THREE.MeshBasicMaterial({
-      map: image_2c85cb77_80397634_texture,
+    image_58e00498_6031322a.userData.eventName ="Apply Now "
+const image_2c85cb77_80332f26_iconGeometry = new THREE.PlaneGeometry(1, 0.36);
+   const image_2c85cb77_80332f26_texture = await loadTexture("assets/sbicard-logo.png");
+  const image_2c85cb77_80332f26_image = new THREE.MeshBasicMaterial({
+      map: image_2c85cb77_80332f26_texture,
     });
-    const image_2c85cb77_80397634 = new THREE.Mesh(image_2c85cb77_80397634_iconGeometry, image_2c85cb77_80397634_image);
-    image_2c85cb77_80397634.scale.set(0.4, 0.4, 1);
-    image_2c85cb77_80397634.position.set(-0.3, -0.6, 0);
-    image_2c85cb77_80397634.rotation.set(-0.001, 0, 0);
-    image_2c85cb77_80397634.userData.clickable = true
+    const image_2c85cb77_80332f26 = new THREE.Mesh(image_2c85cb77_80332f26_iconGeometry, image_2c85cb77_80332f26_image);
+    image_2c85cb77_80332f26.scale.set(0.3, 0.3, 0.3);
+    image_2c85cb77_80332f26.position.set(-0.36, -0.55, 0);
+    image_2c85cb77_80332f26.rotation.set(-0.001, 0, 0);
+    image_2c85cb77_80332f26.userData.clickable = true
     
-    image_2c85cb77_80397634.userData.eventName ="unknown"
-const target_imageundeficbcd6_iconGeometry = new THREE.PlaneGeometry(1, 0.7602204869085898);
-   const target_imageundeficbcd6_texture = await loadTexture("assets/shared image (5).jpg");
-  const target_imageundeficbcd6_image = new THREE.MeshBasicMaterial({
-      map: target_imageundeficbcd6_texture,
+    image_2c85cb77_80332f26.userData.eventName ="SBI Card Website"
+const logo_431c351f_ad87431c3_iconGeometry = new THREE.CircleGeometry(0.5,32);
+   const logo_431c351f_ad87431c3_texture = await loadTexture("assets/circle-wa-sm_113.png");
+  const logo_431c351f_ad87431c3_image = new THREE.MeshBasicMaterial({
+      map: logo_431c351f_ad87431c3_texture,
     });
-    const target_imageundeficbcd6 = new THREE.Mesh(target_imageundeficbcd6_iconGeometry, target_imageundeficbcd6_image);
-    target_imageundeficbcd6.scale.set(1, 1, 1);
-    target_imageundeficbcd6.position.set(0, 0, 0);
-    target_imageundeficbcd6.rotation.set(-0.001, 0, 0);
+    const logo_431c351f_ad87431c3 = new THREE.Mesh(logo_431c351f_ad87431c3_iconGeometry, logo_431c351f_ad87431c3_image);
+    logo_431c351f_ad87431c3.scale.set(0.2, 0.2, 0.2);
+    logo_431c351f_ad87431c3.position.set(0, -0.55, 0);
+    logo_431c351f_ad87431c3.rotation.set(-0.001, 0, 0);
+    logo_431c351f_ad87431c3.userData.clickable = true
+    
+    logo_431c351f_ad87431c3.userData.eventName ="Whatsapp"
+const target_imageundefi78ff3_iconGeometry = new THREE.PlaneGeometry(1, 0.7602204869085898);
+   const target_imageundefi78ff3_texture = await loadTexture("assets/shared image (5).jpg");
+  const target_imageundefi78ff3_image = new THREE.MeshBasicMaterial({
+      map: target_imageundefi78ff3_texture,
+    });
+    const target_imageundefi78ff3 = new THREE.Mesh(target_imageundefi78ff3_iconGeometry, target_imageundefi78ff3_image);
+    target_imageundefi78ff3.scale.set(1, 1, 1);
+    target_imageundefi78ff3.position.set(0.01, -0.01, 0.01);
+    target_imageundefi78ff3.rotation.set(-0.001, 0, 0);
     
     
     
 
-    const video_asset_915f0f766d4_planeGeometry = new THREE.PlaneGeometry(1, 0.7678244972577697);
+    const video_asset_38adb942a8c_planeGeometry = new THREE.PlaneGeometry(1, 0.7673469387755102);
 
-    const video_asset_915f0f766d4_Item0Video = await loadVideo("assets/sbi-video.mp4");
+    const video_asset_38adb942a8c_Item0Video = await loadVideo("assets/sbi-card-miles.mp4");
 
-    const video_asset_915f0f766d4_Item0VideoTexture = new THREE.VideoTexture(
-      video_asset_915f0f766d4_Item0Video
+    const video_asset_38adb942a8c_Item0VideoTexture = new THREE.VideoTexture(
+      video_asset_38adb942a8c_Item0Video
     );
 
-    let video_asset_915f0f766d4_Item0VideoMaterial
+    let video_asset_38adb942a8c_Item0VideoMaterial
 
-      video_asset_915f0f766d4_Item0VideoMaterial = new THREE.MeshBasicMaterial({
-          map: video_asset_915f0f766d4_Item0VideoTexture,
+      video_asset_38adb942a8c_Item0VideoMaterial = new THREE.MeshBasicMaterial({
+          map: video_asset_38adb942a8c_Item0VideoTexture,
         })
     
-     const video_asset_915f0f766d4 = new THREE.Mesh(
-      video_asset_915f0f766d4_planeGeometry,
-      video_asset_915f0f766d4_Item0VideoMaterial
+     const video_asset_38adb942a8c = new THREE.Mesh(
+      video_asset_38adb942a8c_planeGeometry,
+      video_asset_38adb942a8c_Item0VideoMaterial
     );
 
-  video_asset_915f0f766d4.position.set(0, 0, 0);
+  video_asset_38adb942a8c.position.set(0, 0, 0);
 
 
 
   if (isIOS) {
-    video_asset_915f0f766d4_Item0Video.muted=isIOS
+    video_asset_38adb942a8c_Item0Video.muted=isIOS
     muteIconMesh = await loadUnmuteLogo();
     anchor.group.add(muteIconMesh);
   }
 
-  video_asset_915f0f766d4_Item0Video.loop=true;
+  video_asset_38adb942a8c_Item0Video.loop=true;
   
-  video_asset_915f0f766d4.scale.set(0.95, 0.95, 0.9);
+  video_asset_38adb942a8c.scale.set(1, 1, 1);
 
-    video_asset_915f0f766d4.rotation.set(-0.001, 0, 0);
+    video_asset_38adb942a8c.rotation.set(-0.001, 0, 0);
 
     
   
@@ -258,7 +270,7 @@ const target_imageundeficbcd6_iconGeometry = new THREE.PlaneGeometry(1, 0.760220
 
         if(isIOS){ 
           if (o.userData.clickable && o === muteIconMesh) {
-            video_asset_915f0f766d4_Item0Video.muted=false
+            video_asset_38adb942a8c_Item0Video.muted=false
     
             anchor.group.remove(muteIconMesh);
             return true;
@@ -271,16 +283,23 @@ const target_imageundeficbcd6_iconGeometry = new THREE.PlaneGeometry(1, 0.760220
       if (o.userData.clickable) window.showLoadingScreen();
 
       
-      if (o.userData.clickable && o === image_58e00498_60386e28) {
+      if (o.userData.clickable && o === image_58e00498_6031322a) {
         setTimeout(()=>{
           window.location.href = "https://www.sbicard.com/sprint/MilesElite?CS=org"
         },100)
         }
       
 
-      if (o.userData.clickable && o === image_2c85cb77_80397634) {
+      if (o.userData.clickable && o === image_2c85cb77_80332f26) {
         setTimeout(()=>{
           window.location.href = "https://www.sbicard.com/en/personal/credit-cards/travel/sbi-card-miles-elite.page"
+        },100)
+        }
+      
+
+      if (o.userData.clickable && o === logo_431c351f_ad87431c3) {
+        setTimeout(()=>{
+          window.location.href = "https://api.whatsapp.com/send/?phone=917838666333&text=Hi&type=phone_number&app_absent=0"
         },100)
         }
       
@@ -289,10 +308,11 @@ const target_imageundeficbcd6_iconGeometry = new THREE.PlaneGeometry(1, 0.760220
     })
     
       
-    anchor.group.add(image_58e00498_60386e28)
-anchor.group.add(image_2c85cb77_80397634)
+    anchor.group.add(image_58e00498_6031322a)
+anchor.group.add(image_2c85cb77_80332f26)
+anchor.group.add(logo_431c351f_ad87431c3)
 
-anchor.group.add(video_asset_915f0f766d4)
+anchor.group.add(video_asset_38adb942a8c)
 
 
     anchor.onTargetFound = () => {
@@ -309,15 +329,17 @@ anchor.group.add(video_asset_915f0f766d4)
 
 
 
+
      
-      video_asset_915f0f766d4_Item0Video.play();
+      video_asset_38adb942a8c_Item0Video.play();
     };
 
 
     anchor.onTargetLost = () => {
-       video_asset_915f0f766d4_Item0Video.pause();
+       video_asset_38adb942a8c_Item0Video.pause();
 
         
+
 
 
 
